@@ -10,7 +10,7 @@ import requests
 from datetime import datetime, date, time
 import unittest
 
-class YaDiskExucutor:
+class YaDiskExecutor:
     def __init__(self, token: str):
         self.token = token
 
@@ -79,5 +79,5 @@ if __name__ == '__main__':
     #token = 'correct_token'
     #path=f'Netologia_tasks_{datetime.now().strftime("%H-%M-%S")}'
 
-    #folder_ops = YaDiskExucutor(token)
+    #folder_ops = YaDiskExecutor(token)
     #folder_ops.maker(path)
