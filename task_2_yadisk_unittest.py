@@ -29,7 +29,7 @@ class YaDiskExecutor:
 
         response = requests.put(request_url, headers=headers, params=params)
         
-        #below code for debug purposes
+        #code below is for debug purposes
         #print(response.json())
         #if response.status_code == 201:
         #   print(f'Папка {path} создана')
